@@ -57,7 +57,7 @@ public class OnboardTest {
 	            public void checkClientTrusted(
 	                    X509Certificate[] chain,
 	                    String authType) throws CertificateException {
-	                // Oh, I am easy!
+	                // Oh, I am easy! Yes I am
 	            }
 
 	            public void checkServerTrusted(
