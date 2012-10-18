@@ -27,7 +27,7 @@ public class OnboardTest {
     public static final String API_NS = "http://servicemesh.com/agility/api";
 	
 	protected final String getUrlBase() {
-		String agilityHost = "192.168.76.166";
+		String agilityHost = "192.168.76.101";
 		return "https://"+agilityHost+":8443/agility/api/v2.1";
 	}
 	
