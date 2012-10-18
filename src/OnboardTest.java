@@ -111,7 +111,7 @@ public class OnboardTest {
         WebResource resource = client.resource(getUrlBase() + "/onboard/search");           
    
         // all instances should be unmanaged, having unknown stack
-        resource = resource.path("" + 2);
+        resource = resource.path("" + 4);
         resource = resource.queryParam("fields", "id,name,cloud,stack");
         resource = resource.queryParam("limit", "305");
         Assetlist instList = resource.get(Assetlist.class);
