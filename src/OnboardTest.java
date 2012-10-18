@@ -27,7 +27,7 @@ public class OnboardTest {
     public static final String API_NS = "http://servicemesh.com/agility/api";
 	
 	protected final String getUrlBase() {
-		String agilityHost = "192.168.76.166";
+		String agilityHost = "192.168.76.101";
 		return "https://"+agilityHost+":8443/agility/api/v2.1";
 	}
 	
@@ -111,7 +111,7 @@ public class OnboardTest {
         WebResource resource = client.resource(getUrlBase() + "/onboard/search");           
    
         // all instances should be unmanaged, having unknown stack
-        resource = resource.path("" + 2);
+        resource = resource.path("" + 4);
         resource = resource.queryParam("fields", "id,name,cloud,stack");
         resource = resource.queryParam("limit", "305");
         Assetlist instList = resource.get(Assetlist.class);
