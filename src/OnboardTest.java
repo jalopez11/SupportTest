@@ -57,7 +57,7 @@ public class OnboardTest {
 	            public void checkClientTrusted(
 	                    X509Certificate[] chain,
 	                    String authType) throws CertificateException {
-	                // Oh, I am easy! Yes I am
+	                // Oh, I am easy!
 	            }
 
 	            public void checkServerTrusted(
@@ -158,8 +158,8 @@ public class OnboardTest {
 		OnboardTest test= new OnboardTest();
 		
 		test.setUp();
-		test.getTemplate(2125);
-		//test.onboardSearch();
+		//test.getTemplate(2125);
+		test.onboardSearch();
 	}
 
 }
