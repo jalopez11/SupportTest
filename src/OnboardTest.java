@@ -17,8 +17,8 @@ import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
-import com.sun.jersey.api.client.filter.HTTPBasicAuthFilter;
-import com.sun.jersey.client.urlconnection.HTTPSProperties;
+import com.sun.jersey.api.client.filter.HTTPBasicAuthFilter
+import com.sun.jersey.client.urlconnection.HTTPSProperties
 
 
 public class OnboardTest {
